@@ -1,7 +1,7 @@
 int main()
-// {
-//     int a = 100000, b = 100000;
-//     long long result = 1ll * a * b;
-//     printf("%lld", result);
-//     return 0;
-// }
+{
+    int a = 10;
+    a /= 5;
+    printf("%d", a);
+    return 0;
+}

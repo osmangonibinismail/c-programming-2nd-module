@@ -72,10 +72,87 @@
 //     printf("%lld", result);
 //     return 0;
 // }
+// int main()
+// {
+//     int a, b, c;
+//     scanf("%d %d %d", &a, &b, &c);
+//     printf("%d", a+ b + c);
+//     return 0;
+// }
+// int main()
+// {
+//     int a = 10;
+//     a += 5;
+//     printf("%d", a);
+//     return 0;
+// }
+// int main()
+// {
+//     int a = 10;
+//     a -= 5;
+//     printf("%d", a);
+//     return 0;
+// }
+// int main()
+// {
+//     int a = 10;
+//     a *= 5;
+//     printf("%d", a);
+//     return 0;
+// }
+// int main()
+// {
+//     int a = 10;
+//     a /= 5;
+//     printf("%d", a);
+//     return 0;
+// }
+// int main()
+// {
+//     int a = 10;
+//     a %= 3;
+//     printf("%d", a);
+//     return 0;
+// }
+// int main()
+// {
+//     int a = 10;
+//     ++a;
+//     printf("%d", a);
+//     return 0;
+// }
+// int main()
+// {
+//     int a = 10;
+//     a++;
+//     printf("%d", a);
+//     return 0;
+// }
+// int main()
+// {
+//     int a = 10;
+//     --a;
+//     printf("%d", a);
+//     return 0;
+// }
+// int main()
+// {
+//     int a = 10;
+//     printf("%d\n", ++a);
+//     printf("%d", a);
+//     return 0;
+// }
 int main()
 {
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
-    printf("%d", a+ b + c);
+    int a = 10;
+    printf("%d\n", a--);
+    printf("%d", a);
     return 0;
 }
+// int main()
+// {
+//     int a = 10;
+//     printf("%d\n", --a);
+//     printf("%d", a);
+//     return 0;
+// }
