@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <math.h>
+// #include <stdio.h>
+// #include <math.h>
 
 // int main()
 // {
@@ -142,13 +142,13 @@
 //     printf("%d", a);
 //     return 0;
 // }
-int main()
-{
-    int a = 10;
-    printf("%d\n", a--);
-    printf("%d", a);
-    return 0;
-}
+// int main()
+// {
+//     int a = 10;
+//     printf("%d\n", a--);
+//     printf("%d", a);
+//     return 0;
+// }
 // int main()
 // {
 //     int a = 10;
@@ -156,3 +156,307 @@ int main()
 //     printf("%d", a);
 //     return 0;
 // }
+
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6;
+
+//     bool isEqual = a!=b;
+//     printf("%d\n", isEqual);
+//     return 0;
+// }
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6;
+
+//     bool isEqual = a==b;
+//     printf("%d\n", isEqual);
+//     return 0;
+// }
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6;
+
+//     bool isEqual = a>=b;
+//     printf("%d\n", isEqual);
+//     return 0;
+// }
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6;
+
+//     bool isEqual = a<=b;
+//     printf("%d\n", isEqual);
+//     return 0;
+// }
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6;
+
+//     bool isEqual = a<b;
+//     printf("flag = %d\n", isEqual);
+//     return 0;
+// }
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6;
+
+//     bool isEqual = a>b;
+//     printf("flag = %d\n", isEqual);
+//     return 0;
+// }
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6;
+
+//     bool result = a>b || a<b ;
+//     printf("result = %d\n", result);
+//     return 0;
+// }
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6;
+
+//     bool result = a>b && a<b ;
+//     printf("result = %d\n", result);
+//     return 0;
+// }
+
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6, c= 7;
+
+//     bool result = a<b || a<b || a<c;
+//     printf("result = %d\n", result);
+//     return 0;
+// }
+
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6, c= 7;
+
+//     bool result = a>b && a>b && a>c;
+//     printf("result = %d\n", result);
+//     return 0;
+// }
+
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6, c= 7;
+
+//     bool result = !(a>b && a>b && a>c);
+//     printf("result = %d\n", result);
+//     return 0;
+// }
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6, c= 7;
+
+//     bool result = !(a<b || a<b || a<c);
+//     printf("result = %d\n", result);
+//     return 0;
+// }
+
+// #include<stdio.h>
+// #include<stdbool.h>
+// int main()
+// {
+//     int a = 10, b = 6, c= 7;
+
+//     bool result = !(a>b && a>b && a>c);
+//     printf("result = %d\n", result);
+//     return 0;
+// }
+
+// #include<stdio.h>
+
+// int main()
+// {
+//     int a = 10;
+
+//     printf("a = 10\n");
+
+//     if(a = 10);
+//     {
+//         printf("after a = 10\n");
+//     }
+
+//     printf("then a = 10\n");
+// }
+// #include<stdio.h>
+
+// int main()
+// {
+//     int a = 10;
+
+//     printf("a = 10\n");
+
+//     if(a != 8)
+//     {
+//         printf("after a = 10\n");
+//     }
+
+//     printf("then a = 10\n");
+// }
+// #include<stdio.h>
+
+// int main()
+// {
+//     int a = 10;
+
+//     printf("a = 10\n");
+
+//     if(a == 8)
+//     {
+//         printf("after a = 10\n");
+//     }
+
+//     printf("then a = 10\n");
+// }
+
+// #include<stdio.h>
+
+// int main()
+// {
+//     int a = 12;
+
+
+//     if(a < 10)
+//     {
+//         a += 100;
+//         printf("hello if\n");
+//     }
+
+//     printf("%d\n", a);
+// }
+// #include<stdio.h>
+
+// int main()
+// {
+//     int a = 9;
+
+
+//     if(a < 10)
+//     {
+//         a += 100;
+//         printf("hello if\n");
+//     }
+
+//     printf("%d\n", a);
+// }
+
+// #include<stdio.h>
+
+// int main()
+// {
+//     int a = 9;
+
+
+//     if(a < 10)
+//     {
+//         printf("a gretar equal 10\n");
+//     }
+//     else
+//     {
+//         printf("a not gretar equal 10\n");
+//     }
+
+// }
+
+// #include<stdio.h>
+
+// int main()
+// {
+//     int a = 12;
+
+
+//     if(a < 10)
+//     {
+//         printf("a gretar equal 10\n");
+//     }
+//     else
+//     {
+//         printf("a not gretar equal 10\n");
+//     }
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a = 40;
+//     if(a <= 50)
+//     {
+//         printf("Buy 2 eggs\n");
+//     }
+//     else
+//     {
+//         printf("Buy 1 eggs\n");
+//     }
+// }
+// #include<stdio.h>
+// int main()
+// {
+//     int a = 60;
+//     if(a <= 50)
+//     {
+//         printf("Buy 2 eggs\n");
+//     }
+//     else
+//     {
+//         printf("Buy 1 eggs\n");
+//     }
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a = 40;
+//     if(a <= 50)
+//     {
+//         printf("Buy 2 eggs\n");
+//         printf("Take %d Taka back", 50 - a);
+//     }
+//     else
+//     {
+//         printf("Buy 1 eggs\n");
+//     }
+// }
+
+#include<stdio.h>
+int main()
+{
+    int a = 50;
+    if(a <= 40)
+    {
+        printf("Buy 2 eggs\n");
+    }
+    else
+    {
+        printf("Buy 1 eggs\n");
+        printf("give %d Taka", 50 - a);
+    }
+}
