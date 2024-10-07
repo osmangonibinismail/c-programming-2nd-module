@@ -507,37 +507,260 @@
 //     printf("this is final number");
 // }
 
+// #include <stdio.h>
+// #include <stdbool.h>
+// int main()
+// {
+//     int tourDays = 1;
+//     if (tourDays == 2)
+//     {
+//         bool isBoatAvailable = false;
+//         if(isBoatAvailable)
+//         {
+//             printf("going to cox's bazar\n");
+//         }
+//         else
+//         printf("not going  to cox's bazar");
+//     }
+//     else if(tourDays == 4)
+//     {
+//         bool shipAvailable = true;
+//         if(shipAvailable)
+//         {
+//             printf("going to saint martin\n");
+//         }
+//         else
+//         {
+//             printf("not going to saint martin");
+//         }
+//     }
+//     else{
+//         printf("kotaw jabo na");
+//     }
+
+//     return 0;
+
+// }
+
+// #include<stdio.h>
+
+// int main()
+// {
+//     int day = 5;
+//     if(day == 1)
+//     {
+//         printf("saturday\n");
+//     }
+//     else if (day == 2)
+//     {
+//         printf("sunday\n");
+//     }
+//     else if (day == 3)
+//     {
+//         printf("monday\n");
+//     }
+//     else if (day == 4)
+//     {
+//         printf("tuesday\n");
+//     }
+//     else if (day == 5)
+//     {
+//         printf("wednesday\n");
+//     }
+//     else if (day == 6)
+//     {
+//         printf("thursday\n");
+//     }
+//     else if (day == 7)
+//     {
+//         printf("thursday\n");
+//     }
+//     else{
+//         printf("wrong day\n");
+//     }
+
+//     return 0;
+
+// }
+
+// #include<stdio.h>
+
+// int main()
+// {
+//     int day = 5;
+//     switch (day)
+//     {
+//     case 1:
+//         printf("saturday\n");
+//         break;
+//     case 2:
+//         printf("sunday\n");
+//         break;
+//     case 3:
+//         printf("monday\n");
+//         break;
+//     case 4:
+//         printf("tuesday\n");
+//         break;
+//     case 5:
+//         printf("wednesday\n");
+//         break;
+//     case 6:
+//         printf("thursday\n");
+//         break;
+//     case 7:
+//         printf("friday\n");
+//         break;
+
+//     default:
+//         printf("wrong day\n");
+//     }
+//     printf("wrong day");
+
+//     return 0;
+// }
+
+// #include<stdio.h>
+
+// int main()
+// {
+//     int day = 1, hour = 5;
+//     switch (day)
+//     {
+//     case 1:
+//         switch (hour)
+//         {
+//         case 5:
+//             printf("amra scl e jabo na\n");
+//             break;
+
+//         default:
+//             printf("taile scl e jabo\n");
+//         }
+//         break;
+//     case 2:
+//         printf("sunday\n");
+//         break;
+//     case 3:
+//         printf("monday\n");
+//         break;
+//     case 4:
+//         printf("tuesday\n");
+//         break;
+//     case 5:
+//         printf("wednesday\n");
+//         break;
+//     case 6:
+//         printf("thursday\n");
+//         break;
+//     case 7:
+//         printf("friday\n");
+//         break;
+
+//     default:
+//         printf("wrong day\n");
+//     }
+//     printf("wrong day");
+
+//     return 0;
+// }
+
+// #include <stdio.h>
+
+// int main() {
+//     int day;
+//     printf("Enter a number (1-7): ");
+//     scanf("%d", &day);
+
+//     switch (day) {
+//         case 1:
+//             printf("Monday");
+//             break;
+//         case 2:
+//             printf("Tuesday");
+//             break;
+//         case 3:
+//             printf("Wednesday");
+//             break;
+//         case 4:
+//             printf("Thursday");
+//             break;
+//         case 5:
+//             printf("Friday");
+//             break;
+//         case 6:
+//             printf("Saturday");
+//             break;
+//         case 7:
+//             printf("Sunday");
+//             break;
+//         default:
+//             printf("Invalid input");
+//     }
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+//     int a = 5;
+//     a--;
+//     printf("%d", --a);
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+//     int a = 10;
+//     int x = a++;
+//     --x;
+//     a--;
+//     int y = --x;
+//     printf("%d", y--);
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+//     int x = 10;
+//     int y = 12;
+//     if(x>=y || x<=y)
+//     {
+//         printf("hi");
+//     }
+//     else
+//     {
+//         printf("hello");
+//     }
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+//     int x = 10;
+//     int y = 12;
+//     if(x>=y || x<=y)
+//     {
+//         printf("hi ");
+//     }
+
+//     printf("hello");
+// }
+
 #include <stdio.h>
-#include <stdbool.h>
 int main()
 {
-    int tourDays = 1;
-    if (tourDays == 2)
+    int x = 5;
+    if (x < 10)
     {
-        bool isBoatAvailable = false;
-        if(isBoatAvailable)
-        {
-            printf("going to cox's bazar\n");
-        }
-        else
-        printf("not going  to cox's bazar");
+        printf("hello ");
     }
-    else if(tourDays == 4)
+    if (x == 5)
     {
-        bool shipAvailable = true;
-        if(shipAvailable)
-        {
-            printf("going to saint martin\n");
-        }
-        else
-        {
-            printf("not going to saint martin");
-        }
+        printf("hi");
     }
-    else{
-        printf("kotaw jabo na");
+    else
+    {
+        printf("no");
     }
-
-    return 0;
-
 }
